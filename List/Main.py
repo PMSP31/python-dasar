@@ -33,3 +33,7 @@ print(list_for_if)
 
 list_for_if = [i for i in range(0, 10) if i % 2 != 0]
 print(list_for_if)
+
+# 4. list() Constructor
+listCons = list((1,2,3,4))
+print(listCons)
